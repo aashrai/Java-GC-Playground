@@ -1,0 +1,13 @@
+---
+server:
+  applicationConnectors:
+    - type: http
+      port: 3080 # Change this to your desired application port
+  adminConnectors:
+    - type: http
+      port: 3081 # Change this to your desired admin port
+
+logging:
+  level: INFO
+  loggers:
+    com.groww: DEBUG
